@@ -79,13 +79,7 @@ footer {
     background: #777777;
     margin: 18px 0;
 }
-input[type=text], select {
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    line-height: 24px;
-}
+
 .btn-primary{
     background-color:  #4aaaa5;
     color: #ffffff;
@@ -99,6 +93,7 @@ table{
     height: 250px;
     width: 300px;
     display: inline-block;
+    padding: 10px;
 }
 td{
     position: relative;
@@ -112,7 +107,7 @@ td{
     transform: translate(-50%, -50%);
     color: #ffffff;
     background-color: #4aaaa5;
-    width: 97%;
+    width: 92%;
     text-align: center;
 }
 input, select, textarea{
