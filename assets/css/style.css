@@ -29,6 +29,7 @@ body{
 #main_content{
     background-color: #ffffff;
     color: #777777;
+    padding-bottom: 20px;
 }
 h1{
     color: #4aaaa5;
@@ -77,4 +78,43 @@ footer {
     height: 17px;
     background: #777777;
     margin: 18px 0;
+}
+input[type=text], select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    line-height: 24px;
+}
+.btn-primary{
+    background-color:  #4aaaa5;
+    color: #ffffff;
+    border: 0px;
+}
+
+table{
+    width: 100%;
+}
+#table_img_size{
+    height: 250px;
+    width: 300px;
+    display: inline-block;
+}
+td{
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 97%;
+    text-align: center;
+}
+input, select, textarea{
+    color: #777777;
 }
